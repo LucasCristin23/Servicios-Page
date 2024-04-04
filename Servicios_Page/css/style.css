@@ -1,0 +1,49 @@
+.menuNavegacion{
+    text-align: center;
+}
+
+.nav-bar{
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-item{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    transition: color 0.5s ease;
+}
+
+.nav-link:hover{ /* hice que el link cambie de color cuando pasa el puntero por encima */
+    color: #b1afaf;
+    transition: color 0.5s ease;
+}
+
+.link-logo{
+    display: inline-block; /* Ajustar el tamaño del enlace al tamaño del contenido (la imagen) */
+    width: 150px; /* Ancho del logo */
+    height: 150px; /* Alto del logo */
+    overflow: hidden; /* Ocultar cualquier contenido adicional que pueda exceder el tamaño del enlace */
+}
+
+.logo-inicio{
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+}
+
+body{
+    background-color: #E2BFB3;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contenedor-logo{
+    text-align: center;
+}
