@@ -1,0 +1,9 @@
+Para q nos guiemos y no nos quede la pag con 30 fonts y 15 colores
+
+
+Aca ponemos las fonts usadas:
+
+
+Aca la paleta de colores:
+
+fondo body: #E2BFB3
