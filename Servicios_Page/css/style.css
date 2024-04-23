@@ -12,7 +12,7 @@
     margin: 0 10px;
 }
 
-.nav-link{
+.navegacion-link{
     text-decoration: none;
     color: #FFFFFF;
     font-family: sans-serif;
@@ -39,7 +39,7 @@
 }
 
 body{
-    background-color: #E2BFB3;
+    background-color: #fcc29a !important;
     background-size: cover;
     background-repeat: no-repeat;
 }
