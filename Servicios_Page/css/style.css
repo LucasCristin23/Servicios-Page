@@ -19,6 +19,10 @@
     transition: color 0.5s ease;
 }
 
+.nav-word{
+    font-size: larger;
+}
+
 .nav-link:hover{ /* hice que el link cambie de color cuando pasa el puntero por encima */
     color: #b1afaf;
     transition: color 0.5s ease;
