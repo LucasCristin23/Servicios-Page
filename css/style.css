@@ -46,6 +46,7 @@ body{
     background-color: #fff9eb !important;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 10rem !important;
 }
 
 .contenedor-logo{
@@ -56,6 +57,13 @@ body{
     width: 25rem;
 }
 
-.navbar-custom {
-    background-color: #f0f0f0; 
+.card-image{
+    width: 11rem;
+    height: 15rem;
 }
+
+.hero {
+    color: #fff;
+    padding: 100px 0; /* Ajusta el espacio interno según sea necesario */
+    text-align: center;
+  }
