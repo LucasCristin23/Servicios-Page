@@ -12,11 +12,11 @@
     <script src="https://kit.fontawesome.com/54de158cca.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>    
+    <header >    
         <!--NAV DE BS-->
-        <nav class="navbar navbar-expand-lg navbar-light ">
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
             <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" alt="Logo" height="80"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
         
@@ -37,12 +37,20 @@
     </header>
 
     <main>
-      <!-- Llenar -->
+
+      <div class="hero">
+        <div class="container">
+          <h1 class="display-4 fw-bold text-dark">Clases Particulares</h1>
+          <p class="lead fw-bold text-dark">Buscá ayuda para la materia que necesites, <br> nuestros profesores van a estar encantados de ayudarte!</p>
+        </div>
+      </div>
+
+
       
-      <div class="row">
+      <div class="row p-5">
         <div class="col">
-          <div class="card card-style">
-            <img src="/img/analisis 1.png" class="card-img-top" alt="...">
+          <div class="card w-60 card-style">
+            <img src="/img/analisis 1.png" class="card-img-top card-image" alt="...">
             <div class="card-body">
               <h5 class="card-title">Análisis Matemático I</h5>
               <p class="card-text">Acá va un poco de descripcion</p>
@@ -51,8 +59,8 @@
           </div>
         </div>
         <div class="col">
-          <div class="card card-style">
-            <img src="/img/algebra y geometria analitica.png" class="card-img-top" alt="...">
+          <div class="card w-60 card-style">
+            <img src="/img/algebra y geometria analitica.png" class="card-img-top card-image" alt="...">
             <div class="card-body">
               <h5 class="card-title">Álgebra lineal</h5>
               <p class="card-text">Acá va un poco de descripcion</p>
@@ -60,23 +68,53 @@
             </div>
           </div>
         </div>
-      </div>  
-      <div class="row">  
         <div class="col">
-          <div class="col">
-            <div class="card" style="width: 18rem;">
-              <img src="/img/fisica.jpeg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Física I</h5>
-                <p class="card-text">Acá va un poco de descripcion</p>
-                <a href="/pages/err404.html" class="btn btn-primary">Ir al curso</a>
-              </div>
+          <div class="card w-60 card-style">
+            <img src="/img/fisica.jpeg" class="card-img-top card-image" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Álgebra lineal</h5>
+              <p class="card-text">Acá va un poco de descripcion</p>
+              <a href="/pages/err404.html" class="btn btn-primary">Ir al curso</a>
             </div>
-          </div> 
+          </div>
+        </div>
+      </div>
+
+      <!-- Acá hay que agregar otras 3 materias, el formato está copiado y pegado del de arriba -->
+      <div class="row p-5">
+        <div class="col">
+          <div class="card w-60 card-style">
+            <img src="/img/analisis 1.png" class="card-img-top card-image" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Análisis Matemático I</h5>
+              <p class="card-text">Acá va un poco de descripcion</p>
+              <a href="/pages/err404.html" class="btn btn-primary">Ir al curso</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card w-60 card-style">
+            <img src="/img/algebra y geometria analitica.png" class="card-img-top card-image" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Álgebra lineal</h5>
+              <p class="card-text">Acá va un poco de descripcion</p>
+              <a href="/pages/err404.html" class="btn btn-primary">Ir al curso</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card w-60 card-style">
+            <img src="/img/fisica.jpeg" class="card-img-top card-image" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Álgebra lineal</h5>
+              <p class="card-text">Acá va un poco de descripcion</p>
+              <a href="/pages/err404.html" class="btn btn-primary">Ir al curso</a>
+            </div>
+          </div>
         </div>
       </div>
       
-
+      
       
 
     </main>
