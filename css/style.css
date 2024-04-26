@@ -43,11 +43,19 @@
 }
 
 body{
-    background-color: #fcc29a !important;
+    background-color: #fff9eb !important;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .contenedor-logo{
     text-align: center;
+}
+
+.card-style{
+    width: 25rem;
+}
+
+.card-image{
+    
 }
