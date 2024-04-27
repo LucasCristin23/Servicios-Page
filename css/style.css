@@ -1,3 +1,9 @@
+:root{
+    --gris-footer: #3c3c3c;
+    --letras-color:#c6c6c6;
+    --gris-artico: #bfbdbc;
+}
+
 .menuNavegacion{
     text-align: center;
 }
@@ -57,6 +63,99 @@ body{
     width: 25rem;
 }
 
+.navbar-custom {
+    background-color: #f0f0f0; 
+}
+
+/*
+*
+*   ERROR 404
+*
+*/ 
+
+.divImg{
+    text-align: center;
+    margin-top: 20vh;
+}
+.imgError404{
+    height: 50vh;
+    width: 30vw;
+}
+.pError{
+    text-align: center;
+}
+
+
+/*
+*
+*   ABOUT
+*
+*/
+
+.quienesSomos{
+    margin-top: 2%;
+}
+
+
+/*
+*
+*   FOOTER
+*
+*/ 
+
+.footer{
+    font-size: 1.05rem;
+    border-radius: 2px;
+    background-color: #3c3c3c;
+    color: var(--letras-color);
+}
+.div1Footer{
+    margin-top: 1%!important;     
+}
+.iconos{
+    font-size: 30px;
+}
+.hr{
+    margin: 0% 5% 0.5% 5%;
+}
+
+body{
+    background-color: #e9e9e9!important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.divImg{
+    text-align: center;
+}
+
+.pError{
+    text-align: center;
+}
+
+.aFooter{
+    text-decoration: none;
+    color: var(--letras-color);
+}
+.aFooter:hover{
+    color: #FFFFFF;
+}
+
+
+/*
+*
+*   TRABAJA
+*
+*/ 
+.form{
+    border: #3c3c3c solid;
+    padding: 3%;
+    border-radius: 8px;
+    -webkit-box-shadow: -9px 4px 19px -1px rgba(60,60,60,0.86);
+    -moz-box-shadow: -9px 4px 19px -1px rgba(60,60,60,0.86);
+    box-shadow: -9px 4px 19px -1px rgba(60,60,60,0.86);
+    margin-bottom: 15%;
+}
 .card-image{
     width: 11rem;
     height: 15rem;
