@@ -36,6 +36,24 @@
     transition: color 0.5s ease;
 }
 
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: grey; 
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button-link:hover {
+    background-color: darkgrey;
+    color: white;
+    transition: color 0.5s ease;
+}
+
+
 .link-logo{
     display: inline-block; /* Ajustar el tamaño del enlace al tamaño del contenido (la imagen) */
     width: 150px; /* Ancho del logo */
@@ -165,6 +183,62 @@ body{
 
 .hero {
     color: #fff;
-    padding: 100px 0; /* Ajusta el espacio interno según sea necesario */
+    padding: 100px 0; 
     text-align: center;
   }
+
+
+  /* Inicio Sesion*/
+  .login-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.login-form {
+    background-color: white;
+    padding: 6rem 1.875rem; 
+    border-radius: 1rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+    width: 25rem;
+    text-align: center;
+    margin: 1.25rem auto;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px; 
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 15px; 
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px; 
+}
+
+.login-form button {
+    width: 100%;
+    padding: 15px; 
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; 
+}
+
+.login-form button:hover {
+    background-color: darkgrey;
+}
+
+.error {
+    color: red;
+    display: none;
+    margin-top: 10px;
+}
