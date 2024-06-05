@@ -4,6 +4,13 @@
     --gris-artico: #bfbdbc;
 }
 
+/*GLOBALES*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*NAV*/
 .logo-centrado {
     display: block;
     margin-left: auto;
@@ -133,6 +140,7 @@ body{
 */ 
 
 .footer{
+    
     font-size: 1.05rem;
     border-radius: 2px;
     background-color: #3c3c3c;
@@ -146,6 +154,9 @@ body{
 }
 .hr{
     margin: 0% 5% 0.5% 5%;
+}
+.pderechos p{
+    margin-bottom: 0;
 }
 
 body{
